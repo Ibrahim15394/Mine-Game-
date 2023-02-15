@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Text, View, StyleSheet, Alert, FlatList } from "react-native";
+import { Text, View, StyleSheet, Alert, FlatList, } from "react-native";
 import NumberContainer from "../components/game/NumberContainer";
 import Colors from "../constants/colors";
 import DefaultButton from "../components/DefaultButton";
@@ -108,6 +108,7 @@ const styles = StyleSheet.create({
   screen: {
     flex: 1,
     padding: 24,
+    alignItems: 'center'
   },
   text: {
     marginBottom: 12,

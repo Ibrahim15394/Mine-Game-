@@ -3,7 +3,7 @@
     "name": "FirstProjectReactNative",
     "slug": "FirstProjectReactNative",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.ibrahim_morsy3.FirstProjectReactNative"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3b87de96-8d7f-4c0b-9762-83f41e53e331"
+      }
     }
   }
 }

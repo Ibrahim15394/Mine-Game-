@@ -22,5 +22,7 @@ const styles = StyleSheet.create({
         padding: 12,
         textAlign: "center",
         color: "white",
+        maxWidth: '80%',
+        width: 380,
       },
 });

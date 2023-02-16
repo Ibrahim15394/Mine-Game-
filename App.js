@@ -4,6 +4,7 @@ import StartGameScreen from "./screens/StartGameScreen";
 import { LinearGradient } from "expo-linear-gradient";
 import { useFonts } from 'expo-font';
 import AppLoading from 'expo-app-loading';
+import {StatusBar} from 'expo-status-bar';
 
  import GameScreen from "./screens/GameScreen";
 import Colors from "./constants/colors";
@@ -50,6 +51,8 @@ function gameOverHandler(numberOfRounds){
 }
 
   return (
+    <>
+    <StatusBar style = "inverted"/>
     <LinearGradient colors={[Colors.primary700, Colors.accent500]} style={styles.appScreen}>
       <ImageBackground
         source={require("./assets/images/background.jpg")}
@@ -62,6 +65,7 @@ function gameOverHandler(numberOfRounds){
        
       </ImageBackground>
     </LinearGradient>
+    </>
   );
 }
 
